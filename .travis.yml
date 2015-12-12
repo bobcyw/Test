@@ -1,6 +1,7 @@
 language: python
 python:
-  - "2.7"
+# python2少了function annotations,感觉差很多,还是先不兼容了
+#  - "2.7"
   - "3.2"
   - "3.3"
   - "3.4"
