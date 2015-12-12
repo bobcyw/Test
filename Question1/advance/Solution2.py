@@ -47,7 +47,7 @@ class Employee:
         # 先把自己加入到路径中
         report_path.append(self)
         # 先把自己加入到合集中,这里要用拷贝,而不是引用
-        self_report_path = report_path.copy()
+        self_report_path = report_path[:]
         self_dict = {self.emp_id: self_report_path}
         for one_emp in self.reports:
             # 枚举每个reporter,看看有没有更底层的

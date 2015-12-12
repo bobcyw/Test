@@ -7,7 +7,8 @@ class MyTestCase(unittest.TestCase):
     id2name = {}
     emp_list = []
 
-    write = print
+    def write(self, *args, **kwargs):
+        print(*args, **kwargs)
 
     def make_report(self, emp: Employee, reports: [Employee]):
         for one_report in reports:
