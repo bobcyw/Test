@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/bobcyw/malalaoshi.svg)](https://travis-ci.org/bobcyw/malalaoshi)
 ## 代码运行环境
 * 开发环境,Python 3.5.1
 * 测试环境, 3.2,3.3,3.4,3.5
